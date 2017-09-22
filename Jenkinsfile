@@ -1,3 +1,3 @@
 node {
-	echo 'Microservice CI/CD Pipeline - API Gateway' 
+	echo 'Microservice CI/CD Pipeline - API Gateway ' 
 }
