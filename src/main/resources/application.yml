@@ -1,6 +1,3 @@
-spring:
-  application:
-    name: api-gateway
 
 server:
   port: 8000
@@ -17,14 +14,16 @@ management:
     enabled: false        
 
 zuul:
-    prefix: /api-gateway
-    routes:
-        das-boot:
-            path: /das-boot/**
-            serviceId: das-boot
-            stripPrefix: false
-            
-        jooq-madhan:
-            path: /jooq-madhan/**
-            serviceId: jooq-madhan
-            stripPrefix: false
+  prefix: /api-gateway
+  routes:
+    das-boot:
+      path: /v1/das-boot/**
+      serviceId: das-boot
+      stripPrefix: false
+                        
+    jooq-madhan:
+      path: /v1/jooq-madhan/**
+      serviceId: jooq-madhan
+      stripPrefix: false
+ 
+      

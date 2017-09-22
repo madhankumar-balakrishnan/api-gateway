@@ -1,8 +1,9 @@
 
-http://localhost:8000/api-gateway/das-boot/v1/shipwrecks/
+http://localhost:8000/api-gateway/v1/das-boot/shipwrecks
 
-http://localhost:8000/api-gateway/das-boot/v1/customers
+http://localhost:8000/api-gateway/v1/das-boot/customers
 
-http://localhost:8000/api-gateway/jooq-madhan/v1/books
+http://localhost:8000/api-gateway/v1/jooq-madhan/books
 
-http://localhost:8000/api-gateway/jooq-madhan/v1/book/1
+http://localhost:8000/api-gateway/v1/jooq-madhan/book/1
+
